@@ -1,13 +1,14 @@
  <p align="center">
-  <img src="logo.png" alt="ByteBreaker Logo" width="220">
+  <img src="logo.png" alt="ByteBreaker Logo" width="350">
 </p>
 
-<h1 align="center">ByteBreaker</h1>
-
-<h3 align="center">Network Programming & Security Research</h3>
 
 <p align="center">
-  <strong>Explore Network Systems. Understand Security. Build Responsibly.</strong>
+  <strong>Network Programming & Security Research</strong>
+</p>
+
+<p align="center">
+  <em>Explore Network Systems. Understand Security. Build Responsibly.</em>
 </p>
 
 <p align="center">
@@ -16,69 +17,73 @@
 
 ---
 
-## About
+## Overview
 
-**ByteBreaker** is an experimental Python-based networking project developed to explore low-level network communication, packet structures, and concurrent programming.
+**ByteBreaker** is an experimental Python-based networking project focused on exploring low-level network communication, packet structures, and concurrent programming.
 
-The project demonstrates networking concepts through Python's standard libraries, with a focus on understanding how network protocols and system resources interact.
+Built using Python's standard libraries, the project demonstrates fundamental networking concepts and the interaction between network protocols, system resources, and concurrent execution.
 
 ## Core Technologies
 
-- Python
-- Socket Programming
-- Network Protocols
-- Multithreading
-- Multiprocessing
-- Binary Data Structures
-- Command-Line Development
-- Performance Monitoring
+| Technology | Description |
+|---|---|
+| Python | Core programming language |
+| Socket Programming | Network communication |
+| ICMP & UDP | Network protocols |
+| Multithreading | Concurrent execution |
+| Multiprocessing | Parallel processing |
+| Struct | Binary data structures |
+| Argparse | Command-line interface |
+| CSV | Statistics and reporting |
 
-## Project Highlights
+## Key Features
 
-- Modular Python implementation
-- Network protocol research
-- Concurrent programming concepts
-- Runtime statistics
-- CSV-based reporting
-- Input validation
-- Experimental system-level networking
+- **Network Protocol Research** — Experimental ICMP and UDP networking functionality.
+- **Concurrent Architecture** — Multithreading and multiprocessing.
+- **Packet Structures** — Binary packet construction and checksums.
+- **Runtime Statistics** — Packet counters and traffic measurements.
+- **CSV Reporting** — Export runtime statistics.
+- **Input Validation** — Target and configuration validation.
+- **Worker Management** — Automatic worker recovery mechanisms.
+- **System Integration** — CPU affinity and network interface binding.
 
-## Educational Purpose
+## Educational Objectives
 
-ByteBreaker is intended as a learning and research project for understanding:
+ByteBreaker explores practical concepts in:
 
 - Computer networking fundamentals
 - Python system programming
 - Network protocol architecture
-- Concurrent execution
+- Raw socket communication
+- Concurrent programming
+- Process management
 - Responsible security research
 
-## Responsible Use
+## Responsible Use & Security
 
-This project contains experimental high-volume network packet transmission functionality.
+**Important:** ByteBreaker contains experimental high-volume ICMP and UDP packet transmission functionality.
 
-**Important Security Considerations:**
+This software must only be used in isolated laboratory environments with explicit authorization.
 
-- Do not use against public networks or third-party systems.
-- Do not disrupt network availability or services.
-- Network experiments must remain within isolated environments with appropriate authorization.
-- This project is not intended for unauthorized denial-of-service activity.
+- Never target public servers or third-party infrastructure.
+- Never disrupt network availability or services.
+- Do not use this project for unauthorized denial-of-service activity.
+- Ensure all experiments remain within controlled and authorized environments.
 
-## Development Status
+Users are responsible for complying with applicable laws and network policies.
+
+## Project Status
 
 **Experimental Research Project**
 
-The software has not been independently security-audited or approved for production deployment.
+ByteBreaker is provided for educational and research purposes. It has not been independently security-audited or approved for production deployment.
 
 ## Credits
 
 Developed under the **ethical-tool** security research identity.
 
-Focused on learning, ethical security research, and responsible software development.
-
----
-
 <p align="center">
-  <strong>ETHICAL-TOOL</strong><br>
-  <sub>Learn • Research • Build • Secure</sub>
+  <strong>ETHICAL-TOOL</strong>
+  <br>
+  <sub>Learn. Research. Build. Secure.</sub>
 </p>
